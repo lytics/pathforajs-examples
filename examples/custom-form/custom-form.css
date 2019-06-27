@@ -1,0 +1,13 @@
+.pf-widget.custom-form-widget.pf-widget-slideout.pf-form {
+  width: 460px;
+}
+
+.pf-widget.custom-form-widget .pf-widget-checkbox {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0;
+}
+
+.pf-widget.custom-form-widget form.pf-custom-form>div {
+  margin-bottom: 20px;
+}

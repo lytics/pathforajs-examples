@@ -1,0 +1,25 @@
+.pf-widget.video-widget .pf-widget-video {
+  float: left;
+  width: 50%;
+  height: 280px;
+}
+
+.pf-widget.video-widget .pf-widget-content {
+  padding: 0;
+}
+
+.pf-widget.video-widget .pf-widget-video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.pf-widget.video-widget .pf-widget-text {
+  padding: 30px;
+  height: 280px;
+  float: right;
+  width: 50%;
+}
+
+.pf-widget.video-widget .pf-widget-headline {
+  margin-top: 25px;
+}

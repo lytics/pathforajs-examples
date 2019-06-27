@@ -1,0 +1,28 @@
+.pf-widget.pf-widget-variant-2.image-widget .pf-widget-img {
+  border-radius: 0;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+}
+
+.pf-widget.pf-widget-variant-2.image-widget .pf-widget-content .pf-widget-headline {
+  margin-top: 190px;
+}
+
+.pf-widget.image-widget .pf-widget-close {
+  color: white;
+  z-index: 1;
+}
+
+.pf-widget.image-widget .pf-widget-img-inline {
+  float: left;
+  width: 25px;
+  margin-right: 20px;
+}
+
+.pf-widget.image-widget .pf-widget-message {
+  text-align: left;
+}
