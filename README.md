@@ -8,9 +8,10 @@ This repository houses code examples for guides on Personalization use cases wit
 
 ### API Overrides
 
-### [Video Modal](/examples/video)
-- [Video Tutorial](/examples/video/video.mp4)
+### Video Modal
+- [Video Tutorial](https://youtu.be/vwhvpHtHQ-Y)
 - Learn Lytics Guide (TBA)
+- [Download the code example](/examples/video)
 
 ### [Custom Image Styles](/examples/image)
 - Learn Lytics Guide (TBA)
