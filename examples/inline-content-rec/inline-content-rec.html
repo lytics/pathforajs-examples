@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Personalization Example</title>
+  <script type="text/javascript" src="http://c.lytics.io/static/pathfora.min.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="recommendation-block">
+    <div class="block-head">
+      <img src="assets/offers-icon.png" alt="store icon">
+      Recommended <span>just for you</span>
+    </div>
+  
+    <ul class="block-inner">
+      <!-- Relevant code example begins here-->
+
+      <!-- Product 1 -->
+      <li class="product" data-pfblock="product_rec_1" data-pfrecommend="f4e017dd6c254cd18123af711ef7afd1">
+        <img data-pftype="image" alt="product recommendation">
+        <h4 data-pftype="title"></h4>
+        <p data-pftype="description"></p>
+        <a class="button" data-pftype="url">Buy<span class="icon"></span></a>
+      </li>
+  
+      <!-- Product 2 -->
+      <li class="product" data-pfblock="product_rec_2" data-pfrecommend="f4e017dd6c254cd18123af711ef7afd1">
+        <img data-pftype="image" alt="product recommendation">
+        <h4 data-pftype="title"></h4>
+        <p data-pftype="description"></p>
+        <a class="button" data-pftype="url">Buy<span class="icon"></span></a>
+      </li>
+  
+      <!-- Product 3 -->
+      <li class="product" data-pfblock="product_rec_3" data-pfrecommend="f4e017dd6c254cd18123af711ef7afd1">
+        <img data-pftype="image" alt="product recommendation">
+        <h4 data-pftype="title"></h4>
+        <p data-pftype="description"></p>
+        <a class="button" data-pftype="url">Buy<span class="icon"></span></a>
+      </li>
+  
+      <!-- Product 4 -->
+      <li class="product" data-pfblock="product_rec_4" data-pfrecommend="f4e017dd6c254cd18123af711ef7afd1">
+        <img data-pftype="image" alt="product recommendation">
+        <h4 data-pftype="title"></h4>
+        <p data-pftype="description"></p>
+        <a class="button" data-pftype="url">Buy<span class="icon"></span></a>
+      </li>
+
+      <!-- End of code example -->
+
+      <!-- Ignore the code below, we are loading defaults in this example because we aren't using a real Lytics account -->
+
+      <li class="product" data-pfblock="product_rec_1" data-pfrecommend="default">
+        <div class="product-container" style="padding-bottom: 10px;">
+          <img src="assets/skirt.jpg" alt="product image">
+          <h4 style="margin: 20px 0 5px 0;">Pleated Black Skirt</h4>
+          <p>Top zipper closure, two pockets in the front, one in the back. Detachable, adjustable shoulder strap.</p>
+          <a class="button" href="#">Buy<span class="icon"></span></a>
+        </div>
+      </li>
+
+      <li class="product" data-pfblock="product_rec_2" data-pfrecommend="default">
+        <div class="product-container" style="padding-bottom: 10px;">
+          <img src="assets/perfume.jpg" alt="product image">
+          <h4 style="margin: 20px 0 5px 0;">The One</h4>
+          <p>Musky scent contains basil, lavender, and musk. Great for special occassions.</p>
+          <a class="button" href="#">Buy<span class="icon"></span></a>
+        </div>
+      </li>
+
+      <li class="product" data-pfblock="product_rec_3" data-pfrecommend="default">
+        <div class="product-container" style="padding-bottom: 10px;">
+          <img src="assets/rings.jpg" alt="product image">
+          <h4 style="margin: 20px 0 5px 0;">Saphire Ring Set</h4>
+          <p>Set consists of three different rings with saphires set in to each in a different shape.</p>
+          <a class="button" href="#">Buy<span class="icon"></span></a>
+        </div>
+      </li>
+
+      <li class="product" data-pfblock="product_rec_4" data-pfrecommend="default">
+        <div class="product-container" style="padding-bottom: 10px;">
+          <img src="assets/pants.jpg" alt="product image">
+          <h4 style="margin: 20px 0 5px 0;">Barely Boot Columnist Pant</h4>
+          <p>Slim fit pants with a wide-leg boot cut. Comes in 5 different colors. Great for formal or casual outfits.</p>
+          <a class="button" href="#">Buy<span class="icon"></span></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <script type="text/javascript">
+    // Mock the Lytics JStag. You won't need this code, instead just
+    // load the actual Lytics JStag for your account:
+    // https://activate.getlytics.com/connect
+    window.lio = {
+      data: {
+        // mock the user segment membership
+        segments: ["first_time_visitor"] // change this to view the other content pieces
+      },
+      loaded: true,
+      account: {
+        id: "notreal"
+      }
+    };
+  </script>
+</body>
+</html>

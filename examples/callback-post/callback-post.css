@@ -1,0 +1,11 @@
+.pf-widget.custom-tracking-widget.pf-widget-slideout.pf-form {
+  width: 460px;
+}
+
+.pf-widget.custom-tracking-widget .pf-widget-checkbox {
+  font-size: 14px;
+}
+
+.pf-widget.custom-tracking-widget form.pf-custom-form>div {
+  margin-bottom: 20px;
+}

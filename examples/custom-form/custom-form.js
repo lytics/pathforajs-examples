@@ -35,5 +35,13 @@
     ],
     okMessage: "Subscribe"
   });
-  window.pathfora.initializeWidgets([customFormWidget]);
+
+  var modules = {
+    target: [{
+      segment: "high_intensity",
+      widgets: [customFormWidget]
+    }]
+  };
+
+  window.pathfora.initializeWidgets(modules);
 }(window));

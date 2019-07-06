@@ -1,0 +1,22 @@
+.pf-widget.content-rec-widget.pf-widget-variant-3 .pf-content-unit {
+  border: 1px solid #d7d7d7;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.pf-widget.content-rec-widget.pf-widget-variant-3 .pf-content-unit:hover {
+  opacity: 1;
+}
+
+.pf-widget.content-rec-widget.pf-widget-variant-3
+.pf-content-unit .pf-content-unit-meta
+span.pf-content-unit-info {
+  color: #5d5d5d;
+  font-weight: bold;
+}
+
+.pf-widget.content-rec-widget.pf-widget-variant-3
+.pf-content-unit .pf-content-unit-meta h4 {
+  color: #5a88ca;
+}

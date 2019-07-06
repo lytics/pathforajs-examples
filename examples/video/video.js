@@ -9,9 +9,14 @@
     okMessage: "Shop iPhones",
     cancelShow: false,
     onLoad: function (event, module) {
+      // create a div for the video
       var videoDiv = document.createElement("div");
       videoDiv.className = "pf-widget-video";
+
+      // place the video in the div
       videoDiv.innerHTML = "<iframe src=\"https://www.youtube.com/embed/tG7vx7-3sl0\" frameborder=\"0\" allowfullscreen></iframe>";
+      
+      // append the div to the widget node
       var content = module.widget.querySelector(".pf-widget-content");
       var text = module.widget.querySelector(".pf-widget-text");
       content.insertBefore(videoDiv, text);
@@ -20,8 +25,8 @@
 
   var modules = {
     target: [{
-      segment: 'high_affinity_iphone',
-      widgets: [module]
+      segment: "high_affinity_iphone",
+      widgets: [videoWidget]
     }]
   };
   

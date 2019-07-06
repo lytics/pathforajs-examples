@@ -1,0 +1,141 @@
+[data-pftrigger], [data-pfrecommend]{ display: none; }
+
+.recommendation-block {
+  margin: 20px;
+  border: 1px solid #eaeaea;
+  width: 1179px;
+  font-size: 14px;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.block-head {
+  padding: 10px 20px;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #fbfbfb;
+  color: #333;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.block-head img {
+  max-width: 40px;
+  max-height: 40px;
+  display: block;
+  padding-right: 20px;
+  float: left;
+}
+
+.block-head span {
+  display: block;
+  font-weight: 600;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.block-inner {
+  box-sizing: border-box;
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+.block-inner p {
+  margin: 0 0 10px 0;
+}
+
+.product[data-pfmodified] {
+  padding: 20px;
+  width: 292px;
+  margin-right: 0;
+  list-style-type: none;
+  display: inline-block;
+  border-right: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.product[data-pfmodified]:last-child {
+  border: 0;
+}
+
+.product img {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.product h4 {
+  margin: 20px 0 5px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.button {
+  border: 1px solid #eaeaea;
+  padding: 1px 20px 1px 40px;
+  border-radius: 17px;
+  line-height: 30px;
+  min-height: 30px;
+  color: #666666;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  width: auto;
+  position: relative;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+}
+
+.button .icon:before {
+  font-family: 'FontAwesome';
+  content: " ";
+  font-size: 14px;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  background-color: #5a88ca;
+  border-radius: 90%;
+  text-align: center;
+  line-height: 26px;
+  float: left;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.button .icon {
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  position: absolute;
+  left: 2%;
+  top: 2px;
+  overflow: hidden;
+}
+
+.button:hover .icon{
+  left: 100%;
+  margin-left: -30px;
+  border-radius: 0;
+}
+
+.button:hover .icon:before {
+  border-radius: 0;
+}
+
+.button:hover{
+  padding-left: 20px;
+  padding-right: 40px;
+  border-radius: 0;
+  color: #5a88ca;
+}

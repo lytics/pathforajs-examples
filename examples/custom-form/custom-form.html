@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Personalization Example</title>
+  <script type="text/javascript" src="http://c.lytics.io/static/pathfora.min.js"></script>
+  <link rel="stylesheet" href="../custom-css/custom-css.css">
+  <link rel="stylesheet" href="custom-form.css">
+</head>
+
+<body>
+  <script type="text/javascript">
+    // Mock the Lytics JStag. You won't need this code, instead just
+    // load the actual Lytics JStag for your account:
+    // https://activate.getlytics.com/connect
+    window.lio = {
+      data: {
+        // mock the user segment membership
+        segments: ["high_intensity"]
+      },
+      loaded: true,
+      account: {
+        id: "notreal"
+      }
+    };
+  </script>
+  <script type="text/javascript" src="custom-form.js"></script>
+</body>
+</html>

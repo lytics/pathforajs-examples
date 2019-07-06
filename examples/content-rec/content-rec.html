@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Personalization Example</title>
+  <script type="text/javascript" src="http://c.lytics.io/static/pathfora.min.js"></script>
+  <link rel="stylesheet" href="../custom-css/custom-css.css">
+  <link rel="stylesheet" href="content-rec.css">
+  <style>
+    h1, h3 {
+      text-align: center;
+      font-family: "Helvetica Nueue", "Arial", sans-serif;
+    }
+
+    h1 {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Modal will show on exit intent</h1>
+  <h3>(move your cursor above the browser window)</h3>
+
+  <script type="text/javascript">
+    // Mock the Lytics JStag. You won't need this code, instead just
+    // load the actual Lytics JStag for your account:
+    // https://activate.getlytics.com/connect
+    window.lio = {
+      data: {
+        // mock the user segment membership
+        segments: ["likely_to_reengage"]
+      },
+      loaded: true,
+      account: {
+        id: "notreal"
+      }
+    };
+
+    var mockContent = [
+      {
+        url: "http://ecom.lyticsdemo.com/post.html",
+        date: "2019-06-25T01:35:02Z",
+        title: "Has Instagram influenced the Fashion World?",
+        author: "James Anthony",
+        description: "Online media is increasingly influential in fashion. I have my permanent muses and my muses of the moment. Dressing up. People just don't do it anymore. We have to change that. The internet taught me that not everything is glamorous. Attitude is everything.",
+        image: "assets/clothes.jpg",
+        default: true
+      }
+    ];
+  </script>
+  <script type="text/javascript" src="content-rec.js"></script>
+</body>
+</html>
