@@ -46,7 +46,7 @@ Or simply open the HTML file for each example to preview it.
 - [Code Example](/examples/api-overrides)
 
 ### Inline Content Modularization
-- Learn Lytics Guide (TBA once published)
+- [Learn Lytics Guide](https://learn.lytics.com/marketing/use-cases/web-personalization/unlock-additional-web-personalization-features-with-lytics-api-overrides)
 - [Code Example](/examples/inline-content-mod)
 
 ### Inline Content Recommendations
